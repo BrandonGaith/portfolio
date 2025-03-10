@@ -67,9 +67,8 @@
   <main role="main">
 
     <!-- ***** Work ***** -->
-
     <section class="work" id="work">
-z      <div class="row">
+      <div class="row">
         <h2>My Work</h2>
         <div class="work__boxes">
           
@@ -79,14 +78,11 @@ z      <div class="row">
             <div class="work__text">
               <h3>California Speed App</h3>
               <p>
-                A California Speed Game App.
-              </br>
+                A California Speed Game App.<br>
                 This application runs a game called "Speed" specifically
-                a variant of speed called California Speed.
-              </br>
+                a variant of speed called California Speed.<br>
                 The trick to this one was using "Web Sockets" as they
-                allow the user to play one game 2 separate browsers.
-              </br>
+                allow the user to play one game on two separate browsers.<br>
                 Also, the added functionality to get the IP address of
                 whoever is running the game and it allows another person
                 on a different computer to play with them all in real time.
@@ -95,7 +91,7 @@ z      <div class="row">
                 <li>React</li>
                 <li>Web Sockets</li>
               </ul>
-
+        
               <div class="work__links">
                 <a href="https://github.com/BrandonGaith/portfolio/tree/main/speed-app" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
@@ -104,31 +100,47 @@ z      <div class="row">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
+              <button class="carousel-btn prev-photo" onclick="prevPhoto('project1')">&#10094;</button>
+              <button class="carousel-btn next-photo" onclick="nextPhoto('project1')">&#10095;</button>
             </div>
             <div class="work__image-box">
-              <img src="./images/speed_app_start.png" class="work__image" alt="Start">
-              <img src="./images/speed_app_matching.png" class="work__image" alt="Matching">
-              <img src="./images/speed_app_no_match.png" class="work__image" alt="NoMatch">
-              <img src="./images/speed_app_winner.png" class="work__image" alt="Winner">
-              <img src="./images/speed_app_record.png" class="work__image" alt="Record">
+              <section class="carousel">
+                <div class="carousel-container">
+                  <div class="carousel-project" id="project1">
+                    <div class="carousel-slide">
+                      <img src="./images/speed_app_start.png" class="work__image" alt="Start">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/speed_app_matching.png" class="work__image" alt="Matching">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/speed_app_no_match.png" class="work__image" alt="NoMatch">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/speed_app_winner.png" class="work__image" alt="Winner">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/speed_app_record.png" class="work__image" alt="Record">
+                    </div>
+                  </div>                  
+                </div>
+              </section>
             </div>
           </div>
+        
 
 
           <div class="work__box">
             <div class="work__text">
               <h3>Hangman App</h3>
               <p>
-                An App to play the game Hangman.
-              </br>
+                An App to play the game Hangman.</br>
                 This app was designed to simply allow someone
-                to play the classic game "Hangman"
-              </br>
+                to play the classic game "Hangman"</br>
                 Basic hangman rules, you start with blanks equal to
                 the number of letters in the word and no strikes. 
                 But as you make more and more guesses correct ones 
-                fill in the blanks and incorrect ones add to the hangman.
-              </br>
+                fill in the blanks and incorrect ones add to the hangman.</br>
                 The head, the body, two arms and two legs makes Hangman 
                 which means you lost the game!
               </p>
@@ -136,37 +148,52 @@ z      <div class="row">
                 <li>React</li>
                 <li>MongoDB</li>
               </ul>
-
+        
               <div class="work__links">
-                <a href="https://github.com/BrandonGaith/portfolio/tree/main/hangman-app" class="link__text">
+                <a href="https://github.com/BrandonGaith/portfolio/tree/main/hangman-app" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/BrandonGaith/portfolio/tree/main/hangman-app" >
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/BrandonGaith/portfolio/tree/main/hangman-app" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
+              <button class="carousel-btn prev-photo" onclick="prevPhoto('project2')">&#10094;</button>
+              <button class="carousel-btn next-photo" onclick="nextPhoto('project2')">&#10095;</button>
             </div>
             <div class="work__image-box">
-              <img src="./images/hangman_start.png" class="work__image" alt="Start">
-              <img src="./images/hangman_running.png" class="work__image" alt="Running">
-              <img src="./images/hangman_win.png" class="work__image" alt="Win">
-              <img src="./images/hangman_highscore.png" class="work__image" alt="Score">
+              <section class="carousel">
+                <div class="carousel-container">
+                  <div class="carousel-project" id="project2">
+                    <div class="carousel-slide">
+                      <img src="./images/hangman_start.png" class="work__image" alt="Start">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/hangman_running.png" class="work__image" alt="Running">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/hangman_win.png" class="work__image" alt="Win">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/hangman_highscore.png" class="work__image" alt="Score">
+                    </div>
+                  </div>                  
+                </div>
+              </section>
             </div>
           </div>
+
+
+
 
 
           <div class="work__box">
             <div class="work__text">
               <h3>Banking App</h3>
               <p>
-                An app to simulate a bank system of 
-              </br>
-                - Account Creation
-              </br>
-                - Deposits
-              </br>
-                - Transfers
-              </br>
+                An app to simulate a bank system of</br>
+                - Account Creation</br>
+                - Deposits</br>
+                - Transfers</br>
                 - Transaction History 
               </p>
               <ul class="work__list">
@@ -174,27 +201,75 @@ z      <div class="row">
                 <li>MongoDB</li>
               </ul>
 
+        
               <div class="work__links">
-                <a href="https://github.com/BrandonGaith/portfolio/tree/main/banking-app" class="link__text">
+                <a href="https://github.com/BrandonGaith/portfolio/tree/main/banking-app" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/BrandonGaith/portfolio/tree/main/banking-app" >
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/BrandonGaith/portfolio/tree/main/banking-app" title="View Source Code" target="_blank" >
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
+              <button class="carousel-btn prev-photo" onclick="prevPhoto('project3')">&#10094;</button>
+              <button class="carousel-btn next-photo" onclick="nextPhoto('project3')">&#10095;</button>
             </div>
             <div class="work__image-box">
-              <img src="./images/banking_app_login.png" class="work__image" alt="Login">
-              <img src="./images/banking_app_sign_up.png" class="work__image" alt="SignUp">
-              <img src="./images/banking_app_home.png" class="work__image" alt="Home">
-              <img src="./images/banking_app_transfer.png" class="work__image" alt="Transfer">
-              <img src="./images/banking_app_transaction_history.png" class="work__image" alt="History">
+              <section class="carousel">
+                <div class="carousel-container">
+                  <div class="carousel-project" id="project3">
+                    <div class="carousel-slide">
+                      <img src="./images/banking_app_login.png" class="work__image" alt="Login">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/banking_app_sign_up.png" class="work__image" alt="SignUp">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/banking_app_home.png" class="work__image" alt="Home">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/banking_app_transfer.png" class="work__image" alt="Transfer">
+                    </div>
+                    <div class="carousel-slide">
+                      <img src="./images/banking_app_transaction_history.png" class="work__image" alt="History">
+                    </div>
+                  </div>                  
+                </div>
+              </section>
             </div>
           </div>
-
         </div>
       </div>
     </section>
+
+
+    <script>
+      let currentPhoto = 1;
+
+      function showPhoto(n, projectId) {
+        const project = document.getElementById(projectId);
+        const photos = project.querySelectorAll('.carousel-slide');
+        if (n > photos.length) currentPhoto = 1;
+        if (n < 1) currentPhoto = photos.length;
+        photos.forEach(photo => photo.style.display = 'none');
+        photos[currentPhoto - 1].style.display = 'block';
+      }
+
+      function nextPhoto(projectId) {
+        showPhoto(currentPhoto += 1, projectId);
+      }
+
+      function prevPhoto(projectId) {
+        showPhoto(currentPhoto -= 1, projectId);
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const projects = document.querySelectorAll('.carousel-project');
+        projects.forEach(project => {
+        const projectId = project.id;
+          showPhoto(1, projectId);
+        });
+      });
+    </script>
 
 
     <!-- ***** About ***** -->
@@ -206,11 +281,11 @@ z      <div class="row">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Hello, my name is Brandon Gaither. I am a 19 year old College Student going to 
-              Weber State University working on my Bachelor's Degree in Computer Science.
+              Hello, my name is Brandon Gaither. I am a 20 year old College Student going to 
+              Weber State University working on my Bachelor's Degree in Computer Science with a Minor in Cyber security.
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <a href="./files/my_resume.pdf" class="btn" download="My_Resume.pdf">My Resume</a>
           </div>
 
         </div>
@@ -225,11 +300,12 @@ z      <div class="row">
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          I love to code even when the error was a missing ';'
+          I love coding but I hate missing semicolons.
         </p>
         <!-- Replace the email with yours -->
         <a href="mailto:brandongaither@mail.weber.edu" class="btn">brandongaither@mail.weber.edu</a>
-      </div>
+        <a href="https://www.linkedin.com/in/brandongaither04" class="btn">Linkedin</a>
+      </div>  
     </div>
   </section>
 
